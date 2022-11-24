@@ -1,0 +1,21 @@
+.cgry{
+  min-height: 100vh;
+  position: relative;
+}
+.cgry h2{
+    font-family: sans-serif;
+    
+}
+.cgry{
+    max-width: 85%;
+    margin: auto;
+    /* padding-bottom: 450px; */
+}
+
+
+@media only screen and (max-width: 800px) {
+    .cgry{
+        max-width: 100%;
+        padding: 15px;
+    }
+  }

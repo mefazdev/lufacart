@@ -1,0 +1,130 @@
+.main__banner{
+    /* max-width: 75%; */
+    /* margin: auto; */
+    margin-top: 13px;
+}
+.main__banner img{
+    /* max-height: 300px; */
+    /* border: saddlebrown solid; */
+  
+}
+
+.home{
+    min-height: 100vh;
+    max-width: 85%;
+    margin: auto;
+    padding-bottom: 450px;
+}
+ #main__carousel__img{
+    /* border: saddlebrown solid; */
+    margin: auto;
+    max-height: 300px;
+    /* width: 100%; */
+ }
+ /* .cat__div{
+    border: solid greenyellow;
+    max-height: fit-content;
+ } */
+ .cat__div img{
+    /* border: solid red; */
+    margin: auto;
+    height: 70px;
+    width: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cat{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    /* border: solid red; */
+}
+.cat__div p{
+text-align: center;
+font-size: 13px;
+margin-top: 3px;
+}
+
+.pro__div{
+    position: relative;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    /* border: solid red; */
+    /* max-height: 350px; */
+    /* height: 30px; */
+    /* height: fit-content; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.pro__div__bottom{
+    font-family: sans-serif;
+    font-size: 14px;
+    /* line-height:18px; */
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ /* background-color: gray; */
+  
+}
+.pro__div:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pro__div__top{
+    /* border: saddlebrown solid; */
+    position: absolute;
+    /* height: 30px; */
+    /* width: 100px; */
+    padding-right: 5px;
+    background-color:#007bff;
+    align-items: center;
+    /* border-top-left-radius: 5px; */
+    /* border-bottom-right-radius: 10px; */
+}
+.pro__div__top h6{
+font-family: sans-serif;
+color: red;
+font-size: 13px;
+/* font-weight: 600; */
+}
+.pro__div img{
+    overflow: hidden;
+    border-top-right-radius: 15px;
+    max-height: 200px;
+    margin: auto;
+    margin-bottom: 50px;
+    /* border:  solid red; */
+}
+.pro__div__top h5{
+    font-weight: 700;
+    /* font-s   ize: 17px; */
+    text-decoration: line-through;
+    margin-left: 3px;
+}
+.pro__div__top h6{
+    font-weight: 400;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.pro__div__top p{
+    font-weight: 400;
+    font-family: sans-serif;
+    /* font-size: 17px; */
+    /* margin-top: -1px; */
+}
+.pro__head{
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+.cat__div:hover{
+    margin-top: -3px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .home{
+        max-width: 100%;
+        padding: 15px;
+    }
+  }

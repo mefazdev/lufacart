@@ -1,0 +1,260 @@
+@media only screen and (min-width: 850px) {
+  .admin {
+    max-width: 85%;
+    margin: auto;
+  }
+}
+
+.admin {
+  padding-top: 60px;
+}
+.ad__nav {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(23, 50, 81);
+}
+
+.ad__logo {
+  max-width: 100px;
+  margin-left: 3%;
+}
+
+.all__member__head__left select {
+  border: solid 1px gray;
+  border-radius: 3px;
+  outline: none;
+  min-width: 100px;
+  padding: 3px;
+  font-family: "Poppins", sans-serif;
+}
+.all__member__head__left input {
+  border: solid 1px gray;
+  border-radius: 3px;
+  outline: none;
+  min-width: 100px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+  padding: 3px;
+}
+
+#ad__view__btn {
+  background-color: blue;
+  font-size: 13px;
+  color: #fff;
+  padding: 3px;
+  border-radius: 5px;
+  width: 70px;
+}
+
+.ad__login {
+  height: 100vh;
+  background-color: #001e43;
+  display: flex;
+  align-items: center;
+  /* background-color:rgba(255, 255, 255, 0.68); */
+}
+.ad__log__div {
+  width: 100%;
+  height: 300px;
+  /* background-color: #001E43; */
+  background-color: rgba(255, 255, 255, 0.68);
+  max-width: 500px;
+  margin: auto;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+.ad__log__div input {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 7px;
+  border: none;
+}
+.ad__log__div button {
+  margin: auto;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  /* max-width: 80%; */
+  background-color: #001e43;
+  color: #fff;
+}
+
+.ad__log__div__main {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ad__log__div__main img {
+  margin-left: -40px;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.ad__nav__content {
+  width: 100%;
+  max-width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ad__dlt__btn {
+  margin: auto;
+  margin: 10px;
+  padding: 3px;
+  border-radius: 4px;
+  border: none;
+  /* max-width: 80%; */
+  background-color: #f70606;
+  color: #fff;
+  font-size: 13px;
+  width: 70px;
+}
+
+.ad__nav__content button {
+  background-color: red;
+  /* height: 30px;     */
+  color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+  width: 100px;
+}
+
+.all__member__head {
+  /* border: saddlebrown solid; */
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.all__member__head__btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 3px;
+  background-color: rgba(128, 128, 128, 0.119);
+  min-width: 100px;
+  margin-left: 4px;
+  border-radius: 4px;
+}
+.all__member__head__btn__active {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 3px;
+  background-color: rgba(128, 128, 128, 0.119);
+  min-width: 100px;
+  margin-left: 4px;
+  border-radius: 4px;
+  outline: 1px solid rgb(17, 159, 90);
+}
+
+.dash__content {
+  max-width: 85%;
+  margin: auto;
+  margin-top: 50px;
+}
+.dash__head {
+    align-items: center;
+  justify-content: space-between;
+
+  /* border: solid red; */
+}
+
+.dash__head select {
+  border: solid 1px;
+  min-width: 100%;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.dash__head input {
+  border-radius: 5px;
+  border: solid 1px;
+  min-width: 100%;
+  padding: 3px;
+}
+.dash__head button{
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #001e43;
+}
+
+#addModal{
+    outline: none;
+ 
+ 
+}
+
+.add__modal{
+    /* border: solid red; */
+    max-width: 600px;
+    margin: auto;
+    /* height: 400px; */
+    margin-top: 100px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+}
+.add__modal input{
+border: solid 1px;
+outline: none;
+border-radius: 5px;
+padding: 3px;
+ 
+}
+.add__modal select{
+    border: solid 1px;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+     
+    }
+.add__modal__row{
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+#pro__save__btn{
+    background-color: rgb(9, 75, 9);
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100px;
+    float: right;
+    margin-top: 10px;
+}
+#pro__del__btn{
+    background-color: rgb(120, 8, 8);
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100px;
+    float: right;
+    margin-top: 10px;
+}
+
+.ad__nav__links{
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.178);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  width: 80px;
+  border-radius: 5px;
+}
