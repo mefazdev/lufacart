@@ -42,7 +42,7 @@ const [data,setData] = useState([])
         <link rel="icon" href="/favicon.ico" />
       
         <style>
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat&family=Plus+Jakarta+Sans:wght@300;400&family=Poppins&display=swap');
+@import url(&apos;https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat&family=Plus+Jakarta+Sans:wght@300;400&family=Poppins&display=swap&apos;);
 </style>
       </Head>
  
@@ -195,7 +195,7 @@ onClick={()=>setCollapse(false)}
         }
       }).map((d,i)=>{
         return(
-          <div className='pro__div '>
+          <div className='pro__div ' key={i}>
             <a style={{textDecoration:'none',color:"inherit"}} href={d.link}>
         <div className='pro__div__top flex p-1'>
           <h6 className='text-white'>₹ </h6>

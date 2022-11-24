@@ -174,7 +174,7 @@ onClick={()=>setCollapse(false)}
                 }
             }).map((d,i)=>{
               return(
-  <div className="pro__div p-1">
+  <div className="pro__div p-1" key={i}>
               <div className="pro__div__top flex p-1">
                 <h6 className="text-white">₹ </h6>
                 <p className='text-white ml-1'>{d.price}</p>

@@ -278,7 +278,7 @@ onChange={(e)=>setCategory(e.target.value)}
        {
         cats.map((d,i)=>{
           return(
-            <option>{d.name}</option>
+            <option key={i}>{d.name}</option>
           )
         })
        }

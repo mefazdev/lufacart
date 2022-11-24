@@ -55,6 +55,7 @@ export default function Categories() {
         {data.map((d, i) => {
           return (
             <Link
+            key={i}
               style={{ textDecoration: "none", color: "inherit" }}
               href={`/category/${d.name}`}
             >
