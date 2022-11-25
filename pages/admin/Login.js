@@ -67,12 +67,12 @@ export default function Login() {
                 <div className='ad__log__div'>
            < input
            value={username}
-           onChange = {((e)=>setUsername(e.target.value))}
+           onChange = {((e)=>setUsername(e.target.value.toLowerCase()))}
            placeholder='USERNAME'/>
            <input
            type='password'
            value={password}
-                  onChange = {((e)=>setPassword(e.target.value))}
+                  onChange = {((e)=>setPassword(e.target.value.toLowerCase()))}
                 
            
            placeholder='PASSWORD' />
