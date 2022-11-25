@@ -13,7 +13,7 @@
     min-height: 100vh;
     max-width: 85%;
     margin: auto;
-    padding-bottom: 450px;
+    /* padding-bottom: 450px; */
 }
  #main__carousel__img{
     /* border: saddlebrown solid; */
@@ -49,6 +49,7 @@ margin-top: 3px;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     /* border: solid red; */
+    /* padding-top: 10px; */
     /* max-height: 350px; */
     /* height: 30px; */
     /* height: fit-content; */
@@ -90,7 +91,8 @@ font-size: 13px;
     border-top-right-radius: 15px;
     max-height: 200px;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     /* border:  solid red; */
 }
 .pro__div__top h5{
@@ -126,5 +128,6 @@ font-size: 13px;
     .home{
         max-width: 100%;
         padding: 15px;
+        padding-bottom: 0;
     }
   }
