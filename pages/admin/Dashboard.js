@@ -382,7 +382,7 @@ onChange={(e)=>setCategory(e.target.value)}
  
    </div>
    <div className=' mt-4 grid grid-cols-2 lg:grid-cols-2 gap-4 add__modal__row'>
-    <p>Last price:</p>
+    <p>Max price:</p>
      
     <input value={maxPrice}
     onChange={(e)=>setMaxPrice(e.target.value)}
